@@ -1,4 +1,4 @@
-dnf install java-17-amazon-corretto -y
+dnf install java-21-amazon-corretto -y
 wget https://dlcdn.apache.org/tomcat/tomcat-11/v11.0.27/bin/apache-tomcat-11.0.27.tar.gz
 tar -zxvf apache-tomcat-11.0.27.tar.gz
 sed -i '56  a\<role rolename="manager-gui"/>' apache-tomcat-11.0.27/conf/tomcat-users.xml
